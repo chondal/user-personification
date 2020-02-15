@@ -1,5 +1,6 @@
 {
     "name": "chondal/user-personification",
+    "description": "Tomar la identidad de un usuario sin necesidad de contraseña",
     "authors": [
         {
             "name": "Jonathan",
