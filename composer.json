@@ -1,0 +1,21 @@
+{
+    "name": "chondal/user-personification",
+    "authors": [
+        {
+            "name": "Jonathan",
+            "email": "jg.pradi@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Chondal\\UserPersonification\\": "src/"
+        },
+        "files": [
+            "src/user-personification.php"
+        ]
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.6"
+    }
+}
