@@ -19,5 +19,15 @@
     },
     "require-dev": {
         "orchestra/testbench": "^4.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chondal\\UserPersonification\\UserPersonificationServiceProvider"
+            ],
+            "aliases": {
+                "UserPersonification": "Chondal\\UserPersonification\\Facades\\UserPersonification"
+            }
+        }
     }
 }
