@@ -16,7 +16,7 @@ class UserPersonificationServiceProvider extends ServiceProvider
             __DIR__ . '/../resources/views/' => resource_path('view/vendor/user-personification'),
         ], 'user-personification-views');
         $this->publishes([
-            __DIR__ . '/../config/user-personification.php' => resource_path('config/user-personification.php'),
+            __DIR__ . '/../config/user-personification.php' => base_path('config/user-personification.php'),
         ], 'user-personifications-config');
     }
 
