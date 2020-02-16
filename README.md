@@ -1,7 +1,7 @@
 # User Personification
 
 This package allows you to take the identity of another user without entering the password.
-Keep in mind that you have to be very careful who we give access to this option, as it is ideal for admin users.
+Keep in mind that you have to be very careful who you give access to this option, as it is ideal for admin users.
 
 ## 🚀 Quick start
 
