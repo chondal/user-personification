@@ -1,6 +1,7 @@
 {
     "name": "chondal/user-personification",
-    "description": "Tomar la identidad de un usuario sin necesidad de contraseña",
+    "description": "This package allows you to take the identity of another user without entering the password. Keep in mind that you have to be very careful who we give access to this option, as it is ideal for admin users.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jonathan",
