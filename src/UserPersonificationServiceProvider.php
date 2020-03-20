@@ -13,7 +13,7 @@ class UserPersonificationServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views/', 'UserPersonification');
 
         $this->publishes([
-            __DIR__ . '/../resources/views/' => resource_path('views/vendor/user-personification'),
+            __DIR__ . '/../resources/views/' => resource_path('views/vendor/UserPersonification'),
         ], 'user-personification-views');
         $this->publishes([
             __DIR__ . '/../config/user-personification.php' => base_path('config/user-personification.php'),
