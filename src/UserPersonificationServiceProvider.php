@@ -23,7 +23,7 @@ class UserPersonificationServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('user-personification', function () {
-            return new UserPersonification;
+            return new \Chondal\UserPersonification\UserPersonification;
         });
 
         $this->mergeConfigFrom(__DIR__ . '/../config/user-personification.php', 'user-personification');
